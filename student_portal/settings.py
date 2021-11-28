@@ -26,7 +26,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'vv!5u9ew!9n)5fyb@(=wh(cr3g0psganm_t6_xy!8672(#)$3t'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1','localhost','mitromeet.herokuapp.com']
 
@@ -61,7 +61,7 @@ ROOT_URLCONF = 'student_portal.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR / 'templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -125,7 +125,7 @@ LOGGING = {
             'formatter': 'console'
         },
         'general_log': {
-            'level': 'DEBUG',
+            'level': 'INFO',
             'class': 'logging.FileHandler',
             'formatter': 'file',
             'filename': './general_log.log'
@@ -182,8 +182,8 @@ USE_L10N = True
 
 USE_TZ = True
 
-# db_from_env = dj_database_url.config(conn_max_age=600)
-# DATABASES['default'].update(db_from_env)
+db_from_env = dj_database_url.config(conn_max_age=600)
+DATABASES['default'].update(db_from_env)
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
@@ -193,7 +193,7 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = (os.path.join('static'), )
 STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 
-prod_db  =  dj_database_url.config(conn_max_age=600)
-DATABASES['default'].update(prod_db)
+# prod_db  =  dj_database_url.config(conn_max_age=600)
+# DATABASES['default'].update(prod_db)
 
 django_heroku.settings(locals())

@@ -36,13 +36,13 @@ def registerPage(request):
         context = {'form': form}
         return render(request, 'forum/register.html', context)
 
-def registerMentor(request):
+def registermentor(request):
     if request.user.is_authenticated:
         return redirect('home')
     else:
-        form = CreateUserForm()
+        form = CreateMentorForm()
         if request.method == 'POST':
-            form = CreateUserForm(request.POST)
+            form = CreateMentorForm(request.POST)
             if form.is_valid():
                 form.save()
                 user_msg = form.cleaned_data.get('username')
@@ -53,7 +53,7 @@ def registerMentor(request):
                 return redirect('login')
 
         context = {'form': form}
-        return render(request, 'forum/registerMentor.html', context)
+        return render(request, 'forum/registermentor.html', context)
 
 
 def loginPage(request):
