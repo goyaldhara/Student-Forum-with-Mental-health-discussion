@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="/studentportal/Screenshots/home.PNG" width="580px" alt="MitroMeet" title="MitroMeet"/>
-</p>
+[![home.png](https://i.postimg.cc/8PNC324C/home.png)](https://postimg.cc/pycx51gN)
 
 ## Introduction - MitroMeet
 - This web app deals with problems that the students are facing due to the on going pandemic and it's effecting their mental health like : depression , anxiety, loneliness
@@ -60,10 +58,10 @@ test user password: testuserpassword -->
 ## Screenshot
 
 - Home
-![Home](/studentportal/Screenshots/Search-suggestion.PNG)
+[![Search-suggestion.png](https://i.postimg.cc/90Vc69Gk/Search-suggestion.png)](https://postimg.cc/G870YHgP)
 
 - Category wise filter
-![Category wise](/studentportal/Screenshots/category.PNG)
+[![category.png](https://i.postimg.cc/G3QRBHPc/category.png)](https://postimg.cc/ThpFF2HS)
 
 ## Contact
 
