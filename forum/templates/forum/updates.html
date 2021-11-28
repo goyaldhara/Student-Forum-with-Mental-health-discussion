@@ -1,0 +1,21 @@
+{% extends "forum/main.html" %}
+    {% block content %}
+    <div class="container">
+        <h2 class="text-dark font-weight-bold text-center mt-4">Recent updates</h2>
+        <!-- update card starts here -->
+        {% for update in updates %}
+        <div class="card my-3 col-md-8 mx-auto">
+            
+            <div class="card-body">
+                <a class="card-link">
+                    <h5 class="card-title"> {{update.update_text}}</h5>
+                </a>
+                <div>
+                    <span class="badge badge-primary">{{update.category_id}}</span>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    </div>
+    {% endblock %}
