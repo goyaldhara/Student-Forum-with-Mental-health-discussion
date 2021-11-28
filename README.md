@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="studentportal/Screenshots/home.PNG" width="580px" alt="Engage" title="Engage"/>
+  <img src="/studentportal/Screenshots/home.PNG" width="580px" alt="MitroMeet" title="MitroMeet"/>
 </p>
 
 ## Introduction - MitroMeet
@@ -60,10 +60,10 @@ test user password: testuserpassword -->
 ## Screenshot
 
 - Home
-![Home](studentportal/Screenshots/Search-suggestion.PNG)
+![Home](/studentportal/Screenshots/Search-suggestion.PNG)
 
 - Category wise filter
-![Category wise](studentportal/Screenshots/category.PNG)
+![Category wise](/studentportal/Screenshots/category.PNG)
 
 ## Contact
 
