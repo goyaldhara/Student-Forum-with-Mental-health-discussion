@@ -11,6 +11,7 @@
 - [Tech-Stack](#tech-stack)
 - [Features](#features)
 - [Screenshot](#screenshot)
+- [CI/CD](#cicd)
 - [Contact](#contact)
 - [Support](#support)
 
@@ -63,6 +64,10 @@ test user password: testuserpassword
 
 - Category wise filter
 [![category.png](https://i.postimg.cc/G3QRBHPc/category.png)](https://postimg.cc/ThpFF2HS)
+
+## CI/CD
+- CI/CD
+[![cicd.png](https://i.postimg.cc/hvrnhRZP/cicd.png)](https://postimg.cc/WqhCfCPQ)
 
 ## Contact
 
