@@ -6,7 +6,7 @@
 - Mentors and admin acts as moderators to maintain a healthy discussion environment
 
 ## MitroMeet
-<!-- - [Try it out](#try-it-out) -->
+- [Try it out](#try-it-out)
 - [How to use](#how-to-use)
 - [Tech-Stack](#tech-stack)
 - [Features](#features)
@@ -14,11 +14,11 @@
 - [Contact](#contact)
 - [Support](#support)
 
-<!-- ## Try it out
+## Try it out
 
-[live demo](#/)\
-test user username: test_user\
-test user password: testuserpassword -->
+[Live demo MitroMeet](https://mitromeet.herokuapp.com/)\
+test user username: testuser\
+test user password: testuserpassword
 
 ## How to use
 
@@ -52,7 +52,7 @@ test user password: testuserpassword -->
 - Mental issues related to stress, anxiety discussion forum
 - Topic wise Question Filtering
 - Search Suggestion on platform to find questions
-- Question suggestion while addding question to prevent asking similar question
+- Question suggestion while addding question to prevent similar question on platform
 - Updates can be shared with students regarding upcoming events, placements or exam
 - Admin Panel to help in moderation and sending updates to students
 
@@ -65,8 +65,6 @@ test user password: testuserpassword -->
 [![category.png](https://i.postimg.cc/G3QRBHPc/category.png)](https://postimg.cc/ThpFF2HS)
 
 ## Contact
-
-<p align="right">
 
 ### Dhara Goyal
   <a href="https://www.linkedin.com/in/goyaldhara/"><img alt="LinkedIn" title="LinkedIn" src="https://img.shields.io/badge/-LinkedIn-1DA1F2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
