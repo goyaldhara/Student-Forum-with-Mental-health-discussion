@@ -1,13 +1,13 @@
 <p align="center">
-  <img src="StudNet\Screenshots\home.PNG" width="580px" alt="Engage" title="Engage"/>
+  <img src="studentportal\Screenshots\home.PNG" width="580px" alt="Engage" title="Engage"/>
 </p>
 
-## Introduction - Engage
+## Introduction - MitroMeet
 - This web app deals with problems that the students are facing due to the on going pandemic and it's effecting their mental health like : depression , anxiety, loneliness
 - This portal allows students to connect with their college friends, mentor and counsellors to discuss about the doubts, exams, mental issues, projects, placements
 - Mentors and admin acts as moderators to maintain a healthy discussion environment
 
-## Engage
+## MitroMeet
 <!-- - [Try it out](#try-it-out) -->
 - [How to use](#how-to-use)
 - [Tech-Stack](#tech-stack)
@@ -60,14 +60,10 @@ test user password: testuserpassword -->
 ## Screenshot
 
 - Home
-<p align="center">
-  <img src="StudNet\Screenshots\Search-suggestion.PNG" width="580px" alt="Home" title="Engage"/>
-</p>
+![Category wise](studentportal\Screenshots\Search-suggestion.PNG)
 
 - Category wise filter
-<p align="center">
-  <img src="StudNet\Screenshots\category.PNG" width="580px" alt="Category Filter" title="Engage"/>
-</p>
+![Category wise](studentportal\Screenshots\category.PNG)
 
 ## Contact
 
