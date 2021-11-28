@@ -54,6 +54,7 @@ test user password: testuserpassword -->
 - Search Suggestion on platform to find questions
 - Question suggestion while addding question to prevent asking similar question
 - Updates can be shared with students regarding upcoming events, placements or exam
+- Admin Panel to help in moderation and sending updates to students
 
 ## Screenshot
 
